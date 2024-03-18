@@ -1,0 +1,8 @@
+# RegenStick Plugin Configuration
+max_uses: 10
+stick_name: "&aRegeneration Stick"
+stick_lore:
+  - "&7Right-click to regenerate health over time!"
+  - "&7Remaining Uses: &e%d%/%d%"
+custom_model_data: 123
+cooldown: 5
