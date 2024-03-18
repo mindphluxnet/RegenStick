@@ -1,0 +1,4 @@
+name: RegenStick
+version: '${project.version}'
+main: com.afelia.regenstick.RegenStick
+api-version: '1.20'
