@@ -1,17 +1,17 @@
-name: RegenStick
-version: 1.0
+name: HealingWand
+version: 1.0.1
 main: com.afelia.regenstick.RegenStick
-author: Elias
-description: A Minecraft plugin that provides a regeneration stick.
-api-version: '1.20' # Adjust this according to the version of Bukkit/Spigot you're using
+author: Elias, modded by MindFox Gaming
+description: A Minecraft plugin that provides a healing wand.
+api-version: '1.21' # Adjust this according to the version of Bukkit/Spigot you're using
 
 commands:
-  giveregenstick:
-    description: Gives the player a regeneration stick.
-    usage: /giveregenstick
-    permission: regenstick.give
+  gethealingwand:
+    description: Gives the player a healing wand.
+    usage: /gethealingwand
+    permission: healingwand.give
 
-  giveplayerregenstick:
-    description: Gives a player a regeneration stick.
-    usage: /giveplayerregenstick <player>
-    permission: regenstick.giveplayer
+  givehealingwand:
+    description: Gives a player a healing wand.
+    usage: /givehealingwand <player>
+    permission: healingwand.giveplayer

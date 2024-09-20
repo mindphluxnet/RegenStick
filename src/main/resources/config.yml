@@ -1,8 +1,8 @@
 # RegenStick Plugin Configuration
-max_uses: 10
-stick_name: "&aRegeneration Stick"
+stick_name: "&3Healing Wand"
 stick_lore:
-  - "&7Right-click to regenerate health over time!"
-  - "&7Remaining Uses: &e%d%/%d%"
+  - "&7Aim at player and right-click to heal player for 4 &4♥&7!"
+  - "&7Heals yourself instead when not aiming at a player."
+  - "&7Cooldown: 5 seconds"
 custom_model_data: 123
 cooldown: 5
