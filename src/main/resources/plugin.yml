@@ -2,16 +2,14 @@ name: HealingWand
 version: 1.0.1
 main: com.afelia.regenstick.RegenStick
 author: Elias, modded by MindFox Gaming
-description: A Minecraft plugin that provides a healing wand.
+description: A Minecraft plugin that provides a healing wand for players to heal themselves.
 api-version: '1.21' # Adjust this according to the version of Bukkit/Spigot you're using
 
 commands:
-  gethealingwand:
-    description: Gives the player a healing wand.
-    usage: /gethealingwand
-    permission: healingwand.give
+  healingwand:
+    description: Provides access to a healing wand for players to heal themselves.
+    usage: /<command> [reload|get|give <player>]
+    aliases:
+      - hw
+      - wand
 
-  givehealingwand:
-    description: Gives a player a healing wand.
-    usage: /givehealingwand <player>
-    permission: healingwand.giveplayer

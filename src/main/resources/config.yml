@@ -1,8 +1,7 @@
 # RegenStick Plugin Configuration
-stick_name: "&3Healing Wand"
+stick_name: "&3Dungeoneer's Healing Wand"
 stick_lore:
-  - "&7Aim at player and right-click to heal player for 4 &4♥&7!"
-  - "&7Heals yourself instead when not aiming at a player."
+  - "&7Right-click to instantly heal yourself for 25% of your &4♥&7 health!"
   - "&7Cooldown: 5 seconds"
 custom_model_data: 123
 cooldown: 5
